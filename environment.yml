@@ -1,0 +1,37 @@
+name: osur2017
+channels:
+  - sympy
+  - conda-forge
+  - damianavila82
+  - defaults
+dependencies:
+  - python>=3.5
+  - setuptools
+  - notebook
+  - nbconvert
+  - numpy
+  - matplotlib
+  - scipy
+  - cython
+  - sympy
+  - sundials
+  - python-symengine
+  - numba
+  - gcc
+  - seaborn
+  - toolz 
+  - h5py 
+  - graphviz 
+  - python-graphviz  
+  - lorem 
+  - joblib 
+  - fortran-magic 
+  - cython 
+  - bokeh 
+  - line_profiler 
+  - numba
+  - snakeviz
+  - rise
+  - pip
+  - pip:
+    - nbopen

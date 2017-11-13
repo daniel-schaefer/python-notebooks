@@ -2,8 +2,10 @@ Bonjour à tous,
 
 Je suis le formateur pour la session Python qui commence ce vendredi.
 Les supports seront disponibles sur
-https://gitlab.univ-rennes1.fr/pnavaro/osur-python-2017/ Le projet
-n’est pas public car ce n’est pas autorisé sur ce serveur. Je dois
+
+https://gitlab.univ-rennes1.fr/pnavaro/osur-python-2017/ 
+
+Le projet n’est pas public car ce n’est pas autorisé sur ce serveur. Je dois
 vous ajouter un par un. J’ai déjà trouvé plusieurs d’entre vous.
 Il vous suffit de vous connecter une fois avec votre identifiant
 sesame et je pourrais vous  ajouter comme membre avant vendredi.
