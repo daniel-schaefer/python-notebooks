@@ -21,17 +21,17 @@ $ git clone https://gitlab.univ-rennes1.fr/pnavaro/osur-python-2017.git
 ```
 
 Sur les postes windows, vous pouvez installer git avec la commande 
-
+```bash
 $ conda install git
-
+```
 tapée dans le anaconda prompt.
 
 Actuellement le dépôt est vide mais dès le début de la formation
 vous pourrez télécharger les supports avec la commande
 
 ```bash
-cd osur-python-2017
-git pull
+$ cd osur-python-2017
+$ git pull
 ```
 
 Des corrections et mises à jour seront certainement nécessaires
@@ -41,8 +41,8 @@ Pour installer les packages nécessaires, nous allons créer un
 environnement dédié
 
 ```bash
-conda env create -f environment.yml
-source activate osur2017
+$ conda env create -f environment.yml
+$ source activate osur2017
 ```
 
 Pierre
