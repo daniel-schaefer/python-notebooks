@@ -32,6 +32,8 @@ dependencies:
   - numba
   - snakeviz
   - rise
+  - progressbar2
   - pip
   - pip:
     - nbopen
+    - pythran
