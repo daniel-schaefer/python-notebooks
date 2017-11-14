@@ -5,3 +5,13 @@
 *.html
 
 hello.py
+
+__pycache__/fibo.cpython-36.pyc
+
+fibo.py
+
+sample.txt
+
+workfile.json
+
+workfile.txt
