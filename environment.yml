@@ -36,5 +36,6 @@ dependencies:
   - ujson
   - pip
   - pip:
+    - loky
     - nbopen
     - pythran
