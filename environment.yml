@@ -29,6 +29,7 @@ dependencies:
   - cython 
   - bokeh 
   - line_profiler 
+  - memory_profiler
   - numba
   - snakeviz
   - progressbar2
