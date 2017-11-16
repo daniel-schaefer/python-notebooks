@@ -17,7 +17,6 @@ dependencies:
   - sundials
   - python-symengine
   - numba
-  - gcc
   - seaborn
   - toolz 
   - h5py 
