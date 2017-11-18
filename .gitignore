@@ -25,3 +25,5 @@ today/data.db
 test.out
 
 circle.png
+*.h5
+*.npy

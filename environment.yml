@@ -10,6 +10,7 @@ dependencies:
   - notebook
   - nbconvert
   - numpy
+  - numexpr
   - matplotlib
   - scipy
   - cython
