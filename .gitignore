@@ -34,3 +34,10 @@ euclidian_norm.f90
 mylapack.cpython-36m-darwin.so
 *.so
 vect.cpython-36m-darwin.so.dSYM/Contents/Info.plist
+*.out
+*.o
+*.d
+*.c
+*.pyx
+examples/
+setup.py

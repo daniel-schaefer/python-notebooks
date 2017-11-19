@@ -35,8 +35,10 @@ dependencies:
   - progressbar2
   - ujson
   - ipywidgets
+  - jupyterlab
   - pip
   - pip:
     - loky
     - nbopen
     - pythran
+    - py-heat-magic
