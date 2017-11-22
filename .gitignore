@@ -41,3 +41,5 @@ vect.cpython-36m-darwin.so.dSYM/Contents/Info.plist
 *.pyx
 examples/
 setup.py
+
+lp_results.txt
