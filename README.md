@@ -23,7 +23,7 @@ a domain-specific language.
         source activate osur2017  # Linux OS/X
         activate osur2017         # Windows
 
-Open notebooks with:
+4. Open notebooks with:
 
         nbopen 01.Introduction.ipynb
 
