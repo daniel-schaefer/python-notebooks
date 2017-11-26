@@ -27,6 +27,7 @@ dependencies:
   - ujson
   - ipywidgets
   - pip
+  - gcc
   - pip:
     - loky
     - nbopen
