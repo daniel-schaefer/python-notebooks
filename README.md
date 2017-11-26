@@ -1,6 +1,6 @@
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pnavaro/python-notebooks/github)
 
-This tutorial is made for scientists who wants to learn Python and eventually step from Matlab.
+This tutorial is made for scientists who want to learn Python and eventually step from Matlab.
 
 Python is a general programming language with many scientific libraries. 
 It is optimized to be easy to develop in. The same is not true for Matlab which is 
