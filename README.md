@@ -1,33 +1,27 @@
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pnavaro/python-notebooks/github)
 
 
-Bonjour à tous,
+1.  Download this repository:
 
-Je suis le formateur pour la session Python qui commence ce vendredi.
-Pour les personnes n'ayant pas de distribution python sur leur
-poste, je leur recommande d’installer Miniconda avec Python 3.6
-(https://conda.io/miniconda.html). Les utilisateurs windows auront besoin de
-Microsoft Visual Studio.
+        git clone https://github.com/pnavaro/python-notebooks.git
 
-Voici les commandes pour récupérer les supports
+    or download as a [zip file](https://github.com/pnavaro/python-notebooks/archive/master.zip).
 
-```bash
-$ git clone https://github.com/pnavaro/python-notebooks.git
-```
+2. Install [Anaconda](https://www.anaconda.com/downloads) (large) or [Miniconda](https://conda.io/miniconda.html) (small)
+3. Create a new conda environment:
 
-Sur les postes windows, vous pouvez installer git avec la commande 
-```bash
-$ conda install git
-```
-tapée dans le anaconda prompt.
+        conda env create -f environment.yml
+        source activate osur2017  # Linux OS/X
+        activate osur2017         # Windows
 
-Pour installer les packages nécessaires, nous allons créer un
-environnement dédié
+Windows users can install git with conda
 
-```bash
-$ conda env create -f environment.yml
-$ source activate osur2017
-$ activate osur207 #(windows)
-```
+        conda install git
+
+in anaconda prompt.
+
+Open notebooks with:
+
+        nbopen 01.Introduction.ipynb
 
 Pierre
