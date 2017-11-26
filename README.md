@@ -1,3 +1,6 @@
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pnavaro/python-notebooks/github)
+
+
 Bonjour à tous,
 
 Je suis le formateur pour la session Python qui commence ce vendredi.
