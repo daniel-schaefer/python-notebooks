@@ -1,4 +1,4 @@
-name: osur2017
+name: python-navaro
 channels:
   - sympy
   - conda-forge
