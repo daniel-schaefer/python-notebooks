@@ -6,25 +6,35 @@ Python is a general programming language with many scientific libraries.
 It is optimized to be easy to develop in. The same is not true for Matlab which is 
 a domain-specific language.
 
-1.  Download this repository:
+1. Install [Anaconda](https://www.anaconda.com/downloads) (large) or [Miniconda](https://conda.io/miniconda.html) (small)
 
-        git clone https://github.com/pnavaro/python-notebooks.git
+You can eventually install git with conda after its installation in anaconda prompt.
+```
+conda install git
+git config --global user.name “Prenom Nom"
+git config --global user.email “prenom.nom@domaine.fr"
+```
 
-    or download as a [zip file](https://github.com/pnavaro/python-notebooks/archive/master.zip).
+2.  Download this repository:
+
+```
+git clone https://github.com/pnavaro/python-notebooks.git
+```
+
+or download as a [zip file](https://github.com/pnavaro/python-notebooks/archive/master.zip).
     
-    Windows users can install git with conda after its installation in anaconda prompt.
-
-        conda install git
-
-2. Install [Anaconda](https://www.anaconda.com/downloads) (large) or [Miniconda](https://conda.io/miniconda.html) (small)
 3. Create a new conda environment:
 
-        conda env create -f environment.yml
-        source activate osur2017  # Linux OS/X
-        activate osur2017         # Windows
+```
+conda env create -f environment.yml
+source activate python-navaro  # Linux OS/X
+activate python-navaro         # Windows
+```
 
 4. Open notebooks with:
 
-        nbopen 01.Introduction.ipynb
+```
+nbopen 01.Introduction.ipynb
+```
 
 Pierre
