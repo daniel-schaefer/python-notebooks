@@ -43,3 +43,5 @@ examples/
 setup.py
 
 lp_results.txt
+
+sparkmonitor_kernelextension.log
