@@ -1,48 +1,40 @@
-Bonjour à tous,
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/pnavaro/python-notebooks/github)
 
-Je suis le formateur pour la session Python qui commence ce vendredi.
-Les supports seront disponibles sur le [serveur Gitlab de l'université Rennes 1]
-(https://gitlab.univ-rennes1.fr/pnavaro/osur-python-2017/). Le projet
-n’est pas public car ce n’est pas autorisé sur ce serveur. Je dois
-vous ajouter un par un. J’ai déjà trouvé plusieurs d’entre vous.
-Il vous suffit de vous connecter une fois avec votre identifiant
-sesame et je pourrais vous  ajouter comme membre avant vendredi.
+This tutorial is made for scientists who want to learn Python and eventually step from Matlab.
 
-Pour les personnes n'ayant pas de distribution python sur leur
-poste, je leur recommande d’installer Miniconda avec Python 3.6
-(https://conda.io/miniconda.html)
+Python is a general programming language with many scientific libraries. 
+It is optimized to be easy to develop in. The same is not true for Matlab which is 
+a domain-specific language.
 
-Voici les commandes pour récupérer les supports
+1. Install [Anaconda](https://www.anaconda.com/downloads) (large) or [Miniconda](https://conda.io/miniconda.html) (small)
 
-```bash
-$ git config --global user.name “Prenom Nom"
-$ git config --global user.email “prenom.nom@univ-rennes1.fr"
-$ git clone https://gitlab.univ-rennes1.fr/pnavaro/osur-python-2017.git
+You can eventually install git with conda after its installation in anaconda prompt.
+```
+conda install git
+git config --global user.name “Prenom Nom"
+git config --global user.email “prenom.nom@domaine.fr"
 ```
 
-Sur les postes windows, vous pouvez installer git avec la commande 
-```bash
-$ conda install git
+2.  Download this repository:
+
 ```
-tapée dans le anaconda prompt.
-
-Actuellement le dépôt est vide mais dès le début de la formation
-vous pourrez télécharger les supports avec la commande
-
-```bash
-$ cd osur-python-2017
-$ git pull
+git clone https://github.com/pnavaro/python-notebooks.git
 ```
 
-Des corrections et mises à jour seront certainement nécessaires
-pendant et après la formation.
+or download as a [zip file](https://github.com/pnavaro/python-notebooks/archive/master.zip).
+    
+3. Create a new conda environment:
 
-Pour installer les packages nécessaires, nous allons créer un
-environnement dédié
+```
+conda env create -f environment.yml
+source activate python-navaro  # Linux OS/X
+activate python-navaro         # Windows
+```
 
-```bash
-$ conda env create -f environment.yml
-$ source activate osur2017
+4. Open notebooks with:
+
+```
+nbopen 01.Introduction.ipynb
 ```
 
 Pierre

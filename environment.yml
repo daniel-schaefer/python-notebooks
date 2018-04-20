@@ -1,41 +1,33 @@
-name: osur2017
+name: python-navaro
 channels:
+  - damianavila82
   - sympy
   - conda-forge
-  - damianavila82
   - defaults
 dependencies:
-  - python>=3.5
+  - python>=3.6
   - setuptools
-  - notebook
-  - nbconvert
   - numpy
   - numexpr
   - matplotlib
   - scipy
   - cython
   - sympy
-  - sundials
-  - python-symengine
   - numba
   - seaborn
-  - toolz 
   - h5py 
-  - graphviz 
-  - python-graphviz  
   - lorem 
   - joblib 
   - fortran-magic 
   - cython 
-  - bokeh 
   - line_profiler 
   - memory_profiler
   - numba
-  - snakeviz
   - progressbar2
   - ujson
   - ipywidgets
-  - jupyterlab
+  - gcc
+  - rise
   - pip
   - pip:
     - loky
