@@ -45,3 +45,15 @@ setup.py
 lp_results.txt
 
 sparkmonitor_kernelextension.log
+
+*.pyc
+
+*.pyc
+
+solutions/__pycache__/__init__.cpython-36.pyc
+
+solutions/classes/__pycache__/__init__.cpython-36.pyc
+
+solutions/classes/__pycache__/grocery.cpython-36.pyc
+
+solutions/classes/__pycache__/polynomial.cpython-36.pyc
