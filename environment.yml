@@ -34,3 +34,4 @@ dependencies:
     - nbopen
     - pythran
     - py-heat-magic
+    - dataclasses
