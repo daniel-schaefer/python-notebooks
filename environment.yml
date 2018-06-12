@@ -28,6 +28,9 @@ dependencies:
   - ipywidgets
   - gcc
   - rise
+  - tqdm
+  - imageio
+  - pillow
   - pip
   - pip:
     - loky
