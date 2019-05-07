@@ -22,5 +22,26 @@ install:
   - source activate python-navaro
 
 script: 
-  - python generate_tests.py
-  - py.test tests.py
+  - ipython -c "%run 00.Installation.py"
+  - ipython -c "%run 01.Introduction.py"
+  - ipython -c "%run 02.Strings.py"
+  - ipython -c "%run 03.Lists.py"
+  - ipython -c "%run 04.Control.Flow.Tools.py"
+  - ipython -c "%run 05.Modules.py"
+  - ipython -c "%run 06.Input.And.Output.py"
+  - ipython -c "%run 07.Errors.and.Exceptions.py"
+  - ipython -c "%run 08.Classes.py"
+  - ipython -c "%run 09.Iterators.py"
+  - ipython -c "%run 10.Multiprocessing.py"
+  - ipython -c "%run 11.Standard.Library.py"
+  - ipython -c "%run 12.Matplotlib.py"
+  - ipython -c "%run 13.Numpy.py"
+  - ipython -c "%run 14.SciPy.py"
+  - ipython -c "%run 15.Sympy.py"
+  - ipython -c "%run 16.Fortran.py"
+  - ipython -c "%run 17.Cython.py"
+  - ipython -c "%run 18.Numba.py"
+  - ipython -c "%run 19.LandauDamping.py"
+  - ipython -c "%run 20.Maxwell.2D.py"
+  - ipython -c "%run 21.Gray.Scott.Model.py"
+  - ipython -c "%run 22.Matplotlib.Animation.py"
