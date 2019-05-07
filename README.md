@@ -34,7 +34,8 @@ activate python-navaro         # Windows
 4. Open notebooks with:
 
 ```
-nbopen 01.Introduction.ipynb
+cd python-navaro
+jupyter notebook
 ```
 
 Pierre
