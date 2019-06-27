@@ -31,7 +31,13 @@ source activate python-navaro  # Linux OS/X
 activate python-navaro         # Windows
 ```
 
-4. Open notebooks with:
+4. If you have an existing installation of Jupyter install the new kernel with:
+
+```
+python -m ipykernel install --user --name python-navaro --display-name "Python (navaro)"
+```
+
+5. Open notebooks with:
 
 ```
 cd python-navaro
