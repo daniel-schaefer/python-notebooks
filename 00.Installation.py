@@ -169,16 +169,11 @@
 #
 # Example with package `lorem` from *conda-forge*
 # ```python
-# import sys
-# !conda install --yes --prefix {sys.prefix} -c conda-forge lorem
+# %conda install lorem
 # ```
 #
 # ### pip package in the current Jupyter kernel
 # ```
 # import sys
-# !{sys.executable} -m pip install lorem
+# %pip install lorem
 # ```
-
-# %% {"slideshow": {"slide_type": "slide"}}
-import sys
-print(sys.executable)
