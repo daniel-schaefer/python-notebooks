@@ -1,11 +1,10 @@
 name: python-navaro
 channels:
-  - damianavila82
   - sympy
   - conda-forge
   - defaults
 dependencies:
-  - python>=3.6
+  - python>=3.7
   - setuptools
   - numpy
   - numexpr
@@ -26,16 +25,7 @@ dependencies:
   - progressbar2
   - ujson
   - ipywidgets
-  - gcc
-  - rise
   - tqdm
   - imageio
   - pillow
   - jupytext
-  - pip
-  - pip:
-    - loky
-    - nbopen
-    - pythran
-    - py-heat-magic
-    - dataclasses
