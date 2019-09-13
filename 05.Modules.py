@@ -7,7 +7,7 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.2'
-#       jupytext_version: 1.1.1
+#       jupytext_version: 1.2.3
 #   kernelspec:
 #     display_name: Python 3
 #     language: python
@@ -55,6 +55,13 @@ import fibo
 print(fibo.__name__)
 print(fibo.__file__)
 fibo.fib1(1000)
+
+# %%
+%run fibo.py 1000
+
+# %%
+
+# %%
 
 # %% {"slideshow": {"slide_type": "slide"}}
 help(fibo)
@@ -204,152 +211,3 @@ help(sum)
 # %% {"slideshow": {"slide_type": "slide"}}
 import numpy as np
 help(np.sum)
-
-# %% [markdown] {"slideshow": {"slide_type": "slide"}}
-# # Packaging
-#
-# To share you package you need to add these following files:
-#     
-# - `setup.py`
-# - `README.rst` or `README.md`
-# - `LICENSE`
-# - module files
-#     
-# Optional files:
-#     
-# - `setup.cfg`
-# - `MANIFEST.in`
-# - `requirements.txt`
-#
-
-# %% [markdown]
-# ## Sample repository
-#
-# ```
-# README.md
-# LICENSE
-# setup.py
-# requirements.txt
-# package/__init__.py
-# package/core.py
-# package/helpers.py
-# docs/conf.py
-# docs/index.rst
-# tests/test_basic.py
-# tests/test_advanced.py
-# ```
-
-# %% [markdown] {"slideshow": {"slide_type": "slide"}}
-# Individual tests import context, create a tests/context.py file:
-# ```py
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-#
-# import package
-# ```
-#
-# Then, within the individual test modules, import the module like so:
-# ```py
-# from .context import package
-# ```
-# This will always work as expected, regardless of installation method.
-
-# %% [markdown] {"slideshow": {"slide_type": "slide"}}
-# # setup.py 
-#
-# ```py
-# from distutils.core import setup
-#
-# setup(name='Distutils',
-#       version='1.0',
-#       description='Python Distribution Utilities',
-#       author='Greg Ward',
-#       author_email='gward@python.net',
-#       url='https://www.python.org/sigs/distutils-sig/',
-#       packages=['distutils', 'distutils.command'],
-#      )
-# ```
-
-# %% [markdown] {"slideshow": {"slide_type": "slide"}}
-# Build and install in place
-# ```bash
-# python setup.py build_ext --inplace
-# ```
-#
-# Install in default Python path
-# ```bash
-# python setup.py install
-# ```
-
-# %% [markdown]
-# ```py
-# # Author:
-# #     Loic Gouarin <loic.gouarin@gmail.com>
-# #
-# # License: BSD 3 clause
-# from setuptools import setup, find_packages
-#
-# CLASSIFIERS = [
-#     "Development Status :: 3 - Alpha",
-#     "Intended Audience :: Science/Research",
-#     "Intended Audience :: Developers",
-#     "License :: OSI Approved :: BSD License",
-#     "Programming Language :: Python",
-#     "Programming Language :: Python :: 2",
-#     "Programming Language :: Python :: 2.7",
-#     "Programming Language :: Python :: 3",
-#     "Programming Language :: Python :: 3.4",
-#     "Programming Language :: Python :: 3.5",
-#     "Topic :: Software Development",
-#     "Topic :: Scientific/Engineering",
-#     "Operating System :: Microsoft :: Windows",
-#     "Operating System :: POSIX",
-#     "Operating System :: Unix",
-#     "Operating System :: MacOS"
-# ]
-#
-# name = "splinart"
-#
-# MAJOR = 0
-# MINOR = 1
-# PATCH = 2
-# VERSION = "{}.{}.{}".format(MAJOR, MINOR, PATCH)
-#
-# with open("splinart/version.py", "w") as f:
-#     f.write("__version__ = '{}'\n".format(VERSION))
-#
-# setup(
-#     name = "splinart",
-#     author = "loic.gouarin@gmail.com",
-#     description = "spline art generator",
-#     version = VERSION,
-#     license = "BSD",
-#     classifiers = CLASSIFIERS,
-#     packages = find_packages(exclude=["demos"]),
-#     install_requires = ["numpy",
-#                         "matplotlib>=2",
-#                         "six"],
-#     entry_points={ 'console_scripts': [
-#         'splinart=scripts.cli_splinart:main',
-#         ],
-#     
-# ```
-
-# %%
-# %load ../splinart/requirements.txt
-numpy
-matplotlib
-six
-pytest
-pylint
-pytest-pylint
-pytest-cov
-codecov
-
-
-# %%
-
-# %%
-
-# %%
